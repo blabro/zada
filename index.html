@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <link href="css/main.css" rel="stylesheet" />
     <link href="fonts/fonts.css" type="text.css"/>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
   </head>
 
   <body>
-
-
+    <script src="js/main.js"></script>
     <div id='content'>
       <div class="container">
         <img src="img/logo.png" class="logo"/>
@@ -42,7 +43,7 @@
 
       <div class='container'>
         <ul id=lastviewed>
-          <li> <p1> OSTATNIO OGLĄDANE: </p1> <li>
+          <li> <p1> OSTATNIO OGLĄDANE: </p1> </li>
           <li><a> <img class='small' src="img/Layer138.jpg" /> </a></li>
           <li><a> <img class='small' src="img/Layer139.jpg" /> </a></li>
           <li><a> <img class='small' src="img/Layer140.jpg" /> </a></li>
@@ -55,26 +56,69 @@
           <li><a> <img class='small' src="img/Layer140.jpg" /> </a></li>
         </ul>
       </div>
-
-
       <div class='container'>
         <div class="deals">
           <button>NOWOŚCI</button>
           <button>PROMOCJE</button>
           <button style="font-size:110%;">POLECANE</button>
         </div>
-        <ul id=bigviews>
-          <li><a> <img class='great' src="img/Layer153.jpg" /></a> <span>See More...</span></li>
-          <li><a> <img class='great' src="img/Layer154.jpg" /> </a></li>
-          <li><a> <img class='great' src="img/Layer155.jpg" /> </a></li>
-          <li><a> <img class='great' src="img/Layer156.jpg" /> </a></li>
-          <li><a> <img class='great' src="img/Layer153.jpg" /> </a></li>
-          <li><a> <img class='great' src="img/Layer154.jpg" /> </a></li>
-          <li><a> <img class='great' src="img/Layer155.jpg" /> </a></li>
-          <li><a> <img class='great' src="img/Layer156.jpg" /> </a></li>
-        </ul>
       </div>
 
+
+
+      <div class='container'>
+        <ul id=bigviews>
+          <li><a> <img class='great' src="img/Layer153.jpg"/></a><button type="kupbutton" style="display:none;">Hello</button><br><span>150.90 ZŁ</span><br>Parka zimowa K&L bordowa (KM1519)</li>
+          <li><a> <img class='great' src="img/Layer154.jpg"/></a></li>
+          <li><a> <img class='great' src="img/Layer155.jpg"/></a></li>
+          <li><a> <img class='great' src="img/Layer156.jpg"/></a></li>
+          <li><a> <img class='great' src="img/Layer153.jpg"/></a></li>
+          <li><a> <img class='great' src="img/Layer154.jpg"/></a></li>
+          <li><a> <img class='great' src="img/Layer155.jpg"/></a></li>
+          <li><a> <img class='great' src="img/Layer156.jpg"/></a></li>
+        </ul>
+      </div>
+      <div class="container">
+        <button type="showmore">ZOBACZ WIĘCEJ PRODUKTÓW</button>
+      </div>
+      <div class="container">
+        <footer>
+          <br><br><br> INFORMACJE:
+          <li> Status zamówienia </li>
+          <li> Zwroty, wymiana, reklamacja </li>
+          <li> Regulamin sklepu </li>
+          <li> Formy płatności </li>
+          <li> Koszty dostawy </li>
+          <li> O firmie </li>
+          <li> Formy płatności </li>
+          <li> Program lojalnościowy </li>
+          <li> Polityka cookies sklepu </li>
+          <br><br><br> PŁATNOŚĆ I DOSTAWA:
+          <p class="footer-p"><br><br>Akceptowalne formy płatności to karta płatnicza, przelew online, <br>
+          przelew tradycyjny, płatność przy odbiorze.<br>
+          <br>
+          Metody dostawy: <br>
+          Przesyłka kurierska lub odbiór osobisty w sklepie.<br>
+          <br>
+          Koszty dostawy:<br>
+          wpłata na konto: 9,90 zł<br>
+          opłata za pobraniem: 14,90 zł<br>
+          przy zamówieniu powyżej 200 zł wysyłka gratis!<br>
+          Powyższe ceny dotyczą wysyłki na terenie Polski.<br>
+          <br>
+          30 dni na odstąpienie od umowy!<br> </p>
+          <br><br>NEWSLETTER:<br>
+          <input type="text1" name="newslette" placeholder="Wpisz swój adres e-mail">
+          <div class="container">
+            <button type="signup"> ZAPISZ SIĘ </button>
+          </div>
+          <div class='container'>
+            <br><br><br>KONTAKT:<br>
+            <li> Nr: 517 777 517 </li>
+            <li> sklep@goodlookin.pl </li>
+          </div>
+        </footer>
+      </div>
     </div>
 
 

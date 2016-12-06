@@ -60,10 +60,12 @@ button[type=buttoncashbox] {
   width: 100%;
 }
 ul {
+  overflow: hidden;
   margin: 5%;
   list-style-type: none;
 }
 li {
+  padding: 1%;
 }
 li:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
@@ -82,6 +84,7 @@ h3 {
   color: white;
 }
 .header-p {
+  text-align: left;
   width: 60%;
   color: grey;
 }
@@ -92,6 +95,16 @@ button[type=buttonlearnmore] {
   background-image: url('../img/whitebutton.jpg');
   background-position: 10% 50%;
   background-repeat: no-repeat;
+  padding: 12px 20px 12px 20px;
+}
+button[type=showmore] {
+  width: 100%;
+  margin: auto;
+  border-radius: 30%;
+  background-image: url('../img/whitebutton.jpg') ;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
   padding: 12px 20px 12px 20px;
 }
 ul #lastviewed {
@@ -108,16 +121,12 @@ li a .small {
   text-decoration: none;
 }
 .deals {
+  overflow: hidden;
   margin: auto;
   padding: 15%;
 }
-#bigviews ul li .great {
-  display: inline;
-	list-style: none;
-	padding: 0 10px 0 0;
-	text-align:center;
-
-  width: 90%;
+li .great {
+  width: 60%;
 }
 #bigviews ul li a {
   display: block;
@@ -125,6 +134,42 @@ li a .small {
 #bigviews li .great:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 
+}
+footer {
+  width: 100%;
+  text-align: center;
+}
+.footer-p {
+  margin: auto;
+  text-align: left;
+  width: 40%;
+  color: grey;
+}
+footer li {
+  list-style: none;
+}
+input[type=text1] {
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  padding: 12px 40px 12px 20px;
+}
+button[type=signup] {
+  width: 100%;
+  margin: auto;
+  border-radius: 30%;
+  background-image: url('../img/orangebutton.jpg') ;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 12px 20px 12px 20px;
+}
+button[type=kupbutton] {
+  border-radius: 30%;
+  background-color: red;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 12px 20px 12px 20px;
 }
 @media screen and (min-width: 730px) {
   .col-1 {width: 8.33%;}
