@@ -1,0 +1,103 @@
+body {
+  text-align: center;
+  margin: auto;
+  font-family: Lato;
+}
+@font-face {
+  font-family: Lato;
+  src: url('../fonts/lovelo_black-webfont.ttf');
+}
+* {
+  box-sizing: border-box;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+[class*="col-"] {
+  width: 100%;
+}
+
+button {
+  float: right;
+  border: 0;
+  background: none;
+  padding: 12px;
+}
+button:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+input[type=text] {
+  float: right;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-image: url('../img/searchicon.jpg');
+  background-position: 90% 50%;
+  background-repeat: no-repeat;
+  padding: 12px 40px 12px 20px;
+}
+button[type=buttonaccount] {
+  background-image: url('../img/accounticon.jpg');
+  background-position: 10% 50%;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+}
+button[type=buttonstore] {
+  background-image: url('../img/storeicon.jpg');
+  background-position: 10% 50%;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+}
+button[type=buttoncashbox] {
+  background-image: url('../img/orangebutton.jpg');
+  background-position: 10% 50%;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 20px;
+}
+button[type=buttonlearnmore] {
+  float: left;
+  border-radius: 12px;
+  background-image: url('../img/whitebutton.jpg');
+  background-position: 10% 50%;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 20px;
+}
+.container {
+  width: 100%;
+}
+ul {
+  margin: 5%;
+  list-style-type: none;
+}
+li {
+  padding: 1%;
+}
+li:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.background-container {
+  position: relative;
+  width: auto;
+  float: left;
+}
+.header {
+  position: absolute;
+  width: auto;
+
+}
+@media screen and (min-width: 768px) {
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+
+}
