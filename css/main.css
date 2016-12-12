@@ -113,6 +113,7 @@ li .great {
   width: 60%;
 }
 #bigviews ul li a { display: block; }
+#bigviews li:hover { box-shadow: none}
 #bigviews li .great:hover { box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); }
 footer {
   font-size: 11px;
@@ -232,7 +233,7 @@ button[type=kupbutton] {
     width: 100%;
   }
   li a .small {
-    padding: 3.2vh;
+    padding: 3vh;
     display: block;
     text-decoration: none;
   }
