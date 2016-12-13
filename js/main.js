@@ -1,4 +1,9 @@
 $(document).ready(function() {
+  setTimeout(
+    function() { alert('Sprawdź dodawanie do koszyka!'); } ,
+    1000
+  )
+
   $("li").on('mouseover', '.great', function () {
       $("button[type=kupbutton]").show();
   }).on('mouseleave', '.great', function () {
